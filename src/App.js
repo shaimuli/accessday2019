@@ -35,26 +35,12 @@ class App extends Component {
             <span className="and">+</span>
             <img src={expressLogo} className="express-logo" alt="logo" />
           </div>
-          <h1 className="App-title">
-            How to use express.js with Netlify functions
-          </h1>
+          <h1 className="App-title">aaaaaaa</h1>
         </header>
 
         <p className="App-intro">
-          <h2>Choose an example</h2>
+          <h2>Shay example</h2>
         </p>
-
-        <div className="content">
-          <a className="link" href="/.netlify/functions/aws-serverless-express">
-            Example using `aws-serverless-express` module
-          </a>
-          <a className="link" href="/.netlify/functions/serverless-http">
-            Example using `serverless-http` module
-          </a>
-          <a className="link" href="/.netlify/functions/react-express-ssr">
-            Example using React serverside rendering
-          </a>
-        </div>
       </div>
     );
   }
